@@ -2,13 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-body {
-	height: 900vh;
-	overflow-x: hidden;
-	font-size: 16px;
-  }
-  
+}  
   .container {
 	max-width: 1200px;
 	width: 100%;
@@ -39,8 +33,7 @@ body {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
   }
-  
-    .menu {
+  .menu {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
