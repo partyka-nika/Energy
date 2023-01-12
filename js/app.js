@@ -33,3 +33,16 @@ function closeOnClick() {
   hamb.classList.remove("active");
   body.classList.remove("noscroll");
 }
+function renderPopup1() {
+  popup1.appendChild(menu);
+}
+$(function() {
+  if (!$.cookie('hideModal')) {
+  var delay_popup1 = 1000;
+  setTimeout("document.getElementById('overlay').style.display='block'", delay_popup1);
+  }
+  $.cookie('hideModal', true, {
+      expires: 7,
+      path: '/'
+  });
+});
