@@ -324,7 +324,7 @@ body {
 	will-change: transform;
 }
 .main-article__paragraph {
-	background-color: rgba(175, 172, 172, 0.406);
+	background-color: rgba(0, 0, 0, 0.498);
 	max-width: calc(var(--index) * 30);
 	font-size: calc(var(--index) * .9);
 	margin-top: calc(var(--index) / 1.25);
