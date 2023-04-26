@@ -319,6 +319,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.497);
 }
 .main-article__header {
+	background-color: rgba(0, 0, 0, 0.497);
 	text-transform: uppercase;
 	font-size: calc(var(--index) * 1.8);
 	letter-spacing: calc(var(--index) / 7.5);
@@ -327,6 +328,7 @@ body {
 	will-change: transform;
 }
 .main-article__paragraph {
+	background-color: rgba(0, 0, 0, 0.497);
 	max-width: calc(var(--index) * 30);
 	font-size: calc(var(--index) * .9);
 	margin-top: calc(var(--index) / 1.25);
